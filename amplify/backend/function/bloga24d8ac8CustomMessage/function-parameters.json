@@ -1,0 +1,21 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "bloga24d8ac8",
+  "functionName": "bloga24d8ac8CustomMessage",
+  "resourceName": "bloga24d8ac8CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": "[\n  {\n    \"key\": \"RESOURCENAME\",\n    \"value\": \"resourceName\"\n  }\n]",
+  "triggerDir": "/Users/carloslevir/.nvm/versions/node/v16.13.1/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "bloga24d8ac8CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "http://localhost:3000",
+  "EMAILSUBJECT": "Confirme seu email no Blog da Coders Club!",
+  "EMAILMESSAGE": "Utilize o código ou link abaixo para confirmar sua conta no Blog da Coders Club!",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}
